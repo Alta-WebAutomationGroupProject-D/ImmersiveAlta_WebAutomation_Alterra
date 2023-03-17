@@ -1,4 +1,27 @@
 -------------------------------------------------------------------------------
 Test set: step_definitions.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.719 sec
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.576 sec <<< FAILURE!
+Admin Create User with Valid Parameter([Positive Case] Create User as Admin)  Time elapsed: 18.635 sec  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.10'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+	at org.openqa.selenium.By.className(By.java:100)
+	at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromShortFindBy(AbstractFindByBuilder.java:43)
+	at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:85)
+	at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+	at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+	at locator.user.UserPage.<init>(UserPage.java:14)
+	at step_definitions.UserStepDef.AdminStepDef.adminClickedButtonUserPage(AdminStepDef.java:20)
+	at ✽.Admin clicked button user page(classpath:features/UserFeature/AdminCreateUserPositiveCase.feature:8)
+

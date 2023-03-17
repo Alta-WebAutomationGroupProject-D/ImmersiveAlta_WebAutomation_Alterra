@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="step_definitions.RunCukesTest" time="44.262" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="step_definitions.RunCukesTest" time="18.635" errors="1" skipped="0">
   <properties>
-    <property name="idea.version" value="2022.3.1"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="15.0.2+7-27"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Alterra\Automation\Maven\ImmersiveAlta"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.10+5-MTS"/>
+    <property name="sun.boot.library.path" value="C:\Users\User\.jdks\azul-15.0.10\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
     <property name="user.country" value="ID"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Alterra\Automation\Maven\ImmersiveAlta"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.dir" value="C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.10+5-MTS"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\mafaa\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -29,7 +29,7 @@
     <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.8.7\bin;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\mafaa\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\mafaa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mafaa\AppData\Local\Programs\oh-my-posh\bin;C:\Users\mafaa\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Users\User\.jdks\azul-15.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Maven\apache-maven-3.9.0\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;."/>
     <property name="jansi.passthrough" value="true"/>
     <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3/conf"/>
     <property name="jdk.debug" value="release"/>
@@ -37,32 +37,106 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\mafaa"/>
+    <property name="user.home" value="C:\Users\User"/>
     <property name="user.timezone" value="Asia/Jakarta"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="15"/>
-    <property name="user.name" value="mafaa"/>
+    <property name="user.name" value="User"/>
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.1 test"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 test"/>
+    <property name="java.home" value="C:\Users\User\.jdks\azul-15.0.10"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="15.0.2"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.version" value="15.0.10"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
     <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2021-01-19"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Zulu15.46+17-CA"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Login and logout" name="Normal login" time="9.836"/>
-  <testcase classname="Login and logout" name="Invalid login #1" time="9.429"/>
-  <testcase classname="Login and logout" name="Invalid login #2" time="8.88"/>
-  <testcase classname="Login and logout" name="Invalid login #3" time="8.08"/>
-  <testcase classname="Login and logout" name="Invalid login #4" time="8.037"/>
+  <testcase classname="[Positive Case] Create User as Admin" name="Admin Create User with Valid Parameter" time="18.635">
+    <error message="Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.10&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.10&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)
+	at org.openqa.selenium.By.className(By.java:100)
+	at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromShortFindBy(AbstractFindByBuilder.java:43)
+	at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:85)
+	at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.&lt;init&gt;(DefaultElementLocator.java:58)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.&lt;init&gt;(DefaultElementLocator.java:46)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+	at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+	at locator.user.UserPage.&lt;init&gt;(UserPage.java:14)
+	at step_definitions.UserStepDef.AdminStepDef.adminClickedButtonUserPage(AdminStepDef.java:20)
+	at ✽.Admin clicked button user page(classpath:features/UserFeature/AdminCreateUserPositiveCase.feature:8)
+</error>
+    <system-out>
+@AdminCreateUserPos @Automate
+Scenario: Admin Create User with Valid Parameter                                                      &amp;#27;[90m# features/UserFeature/AdminCreateUserPositiveCase.feature:4&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser already in landing page&amp;#27;[0m                                                                  &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInLandingPage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser input &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin@alta.com&quot;&amp;#27;[0m&amp;#27;[32m as email and &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin&quot;&amp;#27;[0m&amp;#27;[32m as password&amp;#27;[0m                                   &amp;#27;[90m# step_definitions.LogInOutSteps.userInputAsEmailAndAsPassword(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mUser already in dashboard page&amp;#27;[0m                                                                 &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInDashboardPage()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mAdmin clicked button user page&amp;#27;[0m                                                                 &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.adminClickedButtonUserPage()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.10&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)
+	at org.openqa.selenium.By.className(By.java:100)
+	at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromShortFindBy(AbstractFindByBuilder.java:43)
+	at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:85)
+	at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.&lt;init&gt;(DefaultElementLocator.java:58)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.&lt;init&gt;(DefaultElementLocator.java:46)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+	at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+	at locator.user.UserPage.&lt;init&gt;(UserPage.java:14)
+	at step_definitions.UserStepDef.AdminStepDef.adminClickedButtonUserPage(AdminStepDef.java:20)
+	at ✽.Admin clicked button user page(classpath:features/UserFeature/AdminCreateUserPositiveCase.feature:8)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mAdmin already in user page&amp;#27;[0m                                                                      &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.adminAlreadyInUserPage()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mAdmin click button add new user&amp;#27;[0m                                                                &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.adminClickButtonAddUser()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mShow Pop up Form New User&amp;#27;[0m                                                                       &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.showPopUpFormAddUser()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mAdmin input &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;User Baru&quot;&amp;#27;[0m&amp;#27;[36m as Nama and &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;contoh123@gmail.com&quot;&amp;#27;[0m&amp;#27;[36m as Email and &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;asdasd123&quot;&amp;#27;[0m&amp;#27;[36m as Password&amp;#27;[0m &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.adminInputDataProfile(java.lang.String,java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mChoose team &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Placement&quot;&amp;#27;[0m                                                                         &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.setTeam(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mChoose status &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Not-Active&quot;&amp;#27;[0m                                                                      &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.setStatus(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mClick button Save&amp;#27;[0m                                                                              &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.clickBtnSaveAddUser()&amp;#27;[0m
+</system-out>
+    <system-err>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 6414
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 17, 2023 3:15:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+</system-err>
+  </testcase>
 </testsuite>
