@@ -1,5 +1,5 @@
-@UserAddNewUserPos @Automate
-Feature: [Positive Case] Create User as User
+@UserSearchUserPos @Automate
+Feature: [Positive Case] Search User as User
 
   Scenario: User Create New User
     Given User already in landing page
@@ -7,4 +7,5 @@ Feature: [Positive Case] Create User as User
     Then User already in dashboard page
     Then User clicked button user page
     And User already in user page
-    And Button doesnt exist
+    Then User search and see list user name "Naruto"
+    And Table has been filtered

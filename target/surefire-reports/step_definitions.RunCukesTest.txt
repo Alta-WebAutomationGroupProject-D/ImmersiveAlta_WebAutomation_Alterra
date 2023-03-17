@@ -1,27 +1,66 @@
 -------------------------------------------------------------------------------
 Test set: step_definitions.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.576 sec <<< FAILURE!
-Admin Create User with Valid Parameter([Positive Case] Create User as Admin)  Time elapsed: 18.635 sec  <<< ERROR!
-org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.10'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
-	at org.openqa.selenium.By.className(By.java:100)
-	at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromShortFindBy(AbstractFindByBuilder.java:43)
-	at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:85)
-	at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
-	at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
-	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
-	at locator.user.UserPage.<init>(UserPage.java:14)
-	at step_definitions.UserStepDef.AdminStepDef.adminClickedButtonUserPage(AdminStepDef.java:20)
-	at ✽.Admin clicked button user page(classpath:features/UserFeature/AdminCreateUserPositiveCase.feature:8)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.706 sec <<< FAILURE!
+initializationError(step_definitions.RunCukesTest)  Time elapsed: 0.011 sec  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: classpath:features/UserFeature/AdminUpdateUserNegativeCase.feature
+(23:3): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Scenario : Admin Update User with blank Parameter'
+(24:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Given User already in landing page'
+(25:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'When User input "admin@alta.com" as email and "admin" as password'
+(26:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Then User already in dashboard page'
+(27:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Then Admin clicked button user page'
+(28:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'And Admin already in user page'
+(29:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Then Admin click button edit profile'
+(30:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'And Show Pop up Form Edit User'
+(31:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Then Admin input new "Slowpoke" as Nama and blank as Blank Email'
+(32:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'And Choose team "People Skill"'
+(33:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'And Choose status "Not-Active"'
+	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:56)
+	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:46)
+	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
+	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2804)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
+	at io.cucumber.core.resource.ResourceScanner.lambda$findResourcesForUris$3(ResourceScanner.java:104)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUris(ResourceScanner.java:107)
+	at io.cucumber.core.resource.ResourceScanner.scanForClasspathResource(ResourceScanner.java:115)
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:131)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
+	at io.cucumber.junit.Cucumber.<init>(Cucumber.java:156)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 

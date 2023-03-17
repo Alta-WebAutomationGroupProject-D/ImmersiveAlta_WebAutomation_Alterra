@@ -21,75 +21,33 @@ public class UserStepDef {
         userPage.setClickUserButton();
     }
 
-    @Then("User already in user page")
-    public void userAlreadyInUserPage() {
+    @And("User already in user page")
+    public void userAlreadyInUserPage() throws InterruptedException{
         UserPage userPage = new UserPage(webDriver);
         Assert.assertTrue(userPage.setVerifyUserPage());
-    }
-
-    @Then("User click button add new user")
-    public void userClickButtonAddUser(){
-        UserPage userPage = new UserPage(webDriver);
-        userPage.setClickBtnAddUser();
-    }
-
-    @And("User already on Add User")
-    public void userAlreadyInAddUserPage()throws InterruptedException{
-        UserPage userPage = new UserPage(webDriver);
-        Assert.assertTrue(userPage.setVrfyAddUserPopUp());
         Thread.sleep(3000);
     }
 
-    @Then("User click button edit profile")
-    public void userClickButtonEdit(){
+    @Then("User search and see list user name {string}")
+    public void userSearchAndSeeList(String keyword) throws InterruptedException{
         UserPage userPage = new UserPage(webDriver);
-        userPage.setButtonEditProfileUser();
-    }
-
-    @And("User already on Edit Profile")
-    public void userAlreadyinEditProfilePage(){
-        UserPage userPage = new UserPage(webDriver);
-        Assert.assertTrue(userPage.setVrfyEditUserProfile());
-    }
-
-    @Then("User input {string} as new Nama and {string} as new Email")
-    public void userEditDataProfile(String name, String emailprofile) throws InterruptedException {
-        UserPage userPage = new UserPage(webDriver);
-        UserPage.clearField();
-        UserPage.setNama(name);
-        UserPage.setEmailProfile(emailprofile);
-        Thread thread;
+        UserPage.searchingUser(keyword);
+        userPage.clickNextList();
         Thread.sleep(2000);
     }
 
-    @And("User input new {string} as Nama and {} as Blank Email")
-    public void userEditProfileUserWithBlank(String name, String newemail) throws InterruptedException {
+    @And("Button doesnt exist")
+    public void buttonDoesntExist() throws InterruptedException{
         UserPage userPage = new UserPage(webDriver);
-        UserPage.clearField();
-        UserPage.setNama(name);
-        UserPage.setEmailProfile(newemail);
-        Thread thread;
-        Thread.sleep(3000);
+        userPage.buttonDoesntExist();
+        Thread.sleep(2000);
     }
 
-    @And("User choose team {string}")
-    public void userSetTeam(String team1) throws InterruptedException{
+    @And("Table has been filtered")
+    public void filterSearchUser() throws InterruptedException{
         UserPage userPage = new UserPage(webDriver);
-        userPage.pilihTeam(team1);
-        Thread.sleep(3000);
+        Assert.assertTrue(userPage.filterSearch());
+        Thread.sleep(2000);
     }
 
-    @And("User choose status {string}")
-    public void userSetStatus(String status1) throws InterruptedException{
-        UserPage userPage = new UserPage(webDriver);
-        userPage.pilihStatus(status1);
-        Thread.sleep(3000);
-    }
-
-    @And("Show Pop up Akses Ditolak")
-    public void showPopUpAksesDitolak() throws InterruptedException{
-        UserPage userPage = new UserPage(webDriver);
-        userPage.vrfyPopUpAksesDitolak();
-        Thread.sleep(3000);
-    }
 }

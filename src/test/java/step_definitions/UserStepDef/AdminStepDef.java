@@ -2,6 +2,7 @@ package step_definitions.UserStepDef;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import locator.LogInOutPage;
 import locator.user.UserPage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +16,14 @@ public class AdminStepDef {
         super();
         this.webDriver = Hooks.webDriver;
     }
+
+    @Then("User already in dashboard page")
+    public void userAlreadyInDashboardPage() {
+        LogInOutPage logInOutPage = new LogInOutPage(webDriver);
+        Assert.assertTrue(logInOutPage.vrfyDashboard());
+    }
+
+    // Positive Case
     @Then("Admin clicked button user page")
     public void adminClickedButtonUserPage() {
         UserPage userPage = new UserPage(webDriver);
@@ -70,27 +79,8 @@ public class AdminStepDef {
         Thread.sleep(3000);
     }
 
-    @Then("Admin input {string} as Nama and {} as Blank Email and {string} as Password")
-    public void adminInputDataProfileWithBlankParam(String name, String passnewuser) throws InterruptedException {
-        UserPage userPage = new UserPage(webDriver);
-        UserPage.clearField();
-        UserPage.setNama(name);
-        UserPage.setPassword(passnewuser);
-        Thread thread;
-        Thread.sleep(3000);
-    }
-
     @And("Admin input new {string} as Nama and {string} as Email")
     public void adminEditProfileUser(String name, String newemail) throws InterruptedException {
-        UserPage userPage = new UserPage(webDriver);
-        UserPage.setNama(name);
-        UserPage.setEmailProfile(newemail);
-        Thread thread;
-        Thread.sleep(3000);
-    }
-
-    @And("Admin input new {string} as Nama and {} as Blank Email")
-    public void adminEditProfileUserWithBlank(String name, String newemail) throws InterruptedException {
         UserPage userPage = new UserPage(webDriver);
         UserPage.setNama(name);
         UserPage.setEmailProfile(newemail);
@@ -128,5 +118,25 @@ public class AdminStepDef {
     public void clickBtnDelete(){
         UserPage userPage = new UserPage(webDriver);
         userPage.adminClickDeleteButton();
+    }
+
+    // Negative Case
+    @Then("Admin input {string} as Nama and {} as Blank Email and {string} as Password")
+    public void adminInputDataProfileWithBlankParam(String name, String passnewuser) throws InterruptedException {
+        UserPage userPage = new UserPage(webDriver);
+        UserPage.clearField();
+        UserPage.setNama(name);
+        UserPage.setPassword(passnewuser);
+        Thread thread;
+        Thread.sleep(3000);
+    }
+
+    @And("Admin input new {string} as Nama and {} as Blank Email")
+    public void adminEditProfileUserWithBlank(String name, String newemail) throws InterruptedException {
+        UserPage userPage = new UserPage(webDriver);
+        UserPage.setNama(name);
+        UserPage.setEmailProfile(newemail);
+        Thread thread;
+        Thread.sleep(3000);
     }
 }

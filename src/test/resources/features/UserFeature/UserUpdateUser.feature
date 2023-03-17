@@ -1,7 +1,7 @@
-@UserDeleteUserPos @Automate
-Feature: [Positive Case] Delete User as User
+@UserUpdateProfileUserNeg @Automate
+Feature: [Positive Case] Update User as User
 
-  Scenario: Admin Delete User
+  Scenario: User Update User with Invalid Parameter
     Given User already in landing page
     When User input "admin@alta.com" as email and "admin" as password
     Then User already in dashboard page
