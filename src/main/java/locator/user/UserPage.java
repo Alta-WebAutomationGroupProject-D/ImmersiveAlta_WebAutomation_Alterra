@@ -51,7 +51,7 @@ public class UserPage {
     @FindBy(xpath = "//label[@class='btn bg-white border-[#19345E] text-[#19345E] hover:bg-[#19345E] hover:text-white w-20 flex gap-2']")
     private WebElement cancelAddUser;
 
-    @FindBy(className = "text-green-600 cursor-pointer")
+    @FindBy(css = "tbody > tr:nth-of-type(5) .text-green-600")
     private WebElement editProfileUserButton;
 
     @FindBy(xpath = "//input[@value='Naruto Uzumaki']")

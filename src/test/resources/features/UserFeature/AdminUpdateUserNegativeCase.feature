@@ -12,7 +12,7 @@ Feature: [Positive Case] Update User as Admin
     Then Admin input new "<name>" as Nama and "<newemail>" as Email
     And Choose team "People Skill"
     And Choose status "Not-Active"
-    Then Click button Cancel
+    Then Click button Save
 
     Examples:
       | name       | newemail        |
