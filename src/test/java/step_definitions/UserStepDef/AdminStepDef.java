@@ -2,7 +2,6 @@ package step_definitions.UserStepDef;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import locator.LogInOutPage;
 import locator.user.UserPage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
