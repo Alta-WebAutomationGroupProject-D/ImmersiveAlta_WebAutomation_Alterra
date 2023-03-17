@@ -1,8 +1,8 @@
-@Automate @UserCreate @Admin
+@Automate @AdminCreate
 Feature: Create Class
 
 
-  Scenario Outline: User create new class
+  Scenario Outline: Admin create new class
     Given User already in landing page
     When User input "admin@alta.com" as email and "admin" as password
     Then User already in dashboard page
@@ -17,7 +17,7 @@ Feature: Create Class
 
     Examples:
       | nama kelas | mentor         | tanggal mulai | tanggal berakhir |
-      | QE Batch 5 | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
-      | ######     | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
+      | QE Batch 9 | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
+      | ^&*()_+    | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
       |            | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
 

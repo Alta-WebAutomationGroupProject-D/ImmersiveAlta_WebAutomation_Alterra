@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="step_definitions.RunCukesTest" time="44.262" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="step_definitions.RunCukesTest" time="35.334" errors="3" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.2+7-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Alterra\Automation\Maven\ImmersiveAlta"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,14 +13,14 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
-    <property name="user.country" value="ID"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Alterra\Automation\Maven\ImmersiveAlta"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="user.dir" value="E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\mafaa\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -29,7 +29,7 @@
     <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.8.7\bin;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\mafaa\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\mafaa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mafaa\AppData\Local\Programs\oh-my-posh\bin;C:\Users\mafaa\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Maven\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="jansi.passthrough" value="true"/>
     <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3/conf"/>
     <property name="jdk.debug" value="release"/>
@@ -37,11 +37,11 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\mafaa"/>
-    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="15"/>
-    <property name="user.name" value="mafaa"/>
+    <property name="user.name" value="LENOVO"/>
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -60,9 +60,160 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Login and logout" name="Normal login" time="9.836"/>
-  <testcase classname="Login and logout" name="Invalid login #1" time="9.429"/>
-  <testcase classname="Login and logout" name="Invalid login #2" time="8.88"/>
-  <testcase classname="Login and logout" name="Invalid login #3" time="8.08"/>
-  <testcase classname="Login and logout" name="Invalid login #4" time="8.037"/>
+  <testcase classname="Create Class" name="Admin create new class #1" time="13.707">
+    <error message="Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor &quot;Naruto Uzumaki&quot;(classpath:features//class/AdminCreateClass.feature:13)
+</error>
+    <system-out>
+@Automate @AdminCreate
+Scenario Outline: Admin create new class                            &amp;#27;[90m# features//class/AdminCreateClass.feature:20&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser already in landing page&amp;#27;[0m                                &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInLandingPage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser input &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin@alta.com&quot;&amp;#27;[0m&amp;#27;[32m as email and &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin&quot;&amp;#27;[0m&amp;#27;[32m as password&amp;#27;[0m &amp;#27;[90m# step_definitions.LogInOutSteps.userInputAsEmailAndAsPassword(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mUser already in dashboard page&amp;#27;[0m                               &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInDashboardPage()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click button of class page&amp;#27;[0m                       &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickButtonOfClassPage()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click add delete button&amp;#27;[0m                          &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickAddDeleteButton()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click add new button&amp;#27;[0m                             &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickAddNewButton()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin input &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;QE Batch 9&quot;&amp;#27;[0m                               &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminInput(java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mSuper Admin choose mentor &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Naruto Uzumaki&quot;&amp;#27;[0m                    &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor &quot;Naruto Uzumaki&quot;(classpath:features//class/AdminCreateClass.feature:13)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mSuper Admin choose mulai &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;03/01/2023&quot;&amp;#27;[0m                         &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseMulai(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mSuper Admin choose akhir &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;03/31/2023&quot;&amp;#27;[0m                         &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseAkhir(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mSuper Admin click save button&amp;#27;[0m                                &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickSaveButton()&amp;#27;[0m
+</system-out>
+    <system-err>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting Microsoft Edge WebDriver 111.0.1661.43 (b6e9cbf64f5a49997370859b5c1c28a3a25b3477) on port 21897
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 17, 2023 4:39:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+</system-err>
+  </testcase>
+  <testcase classname="Create Class" name="Admin create new class #2" time="10.991">
+    <error message="Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor &quot;Naruto Uzumaki&quot;(classpath:features//class/AdminCreateClass.feature:13)
+</error>
+    <system-out>
+@Automate @AdminCreate
+Scenario Outline: Admin create new class                            &amp;#27;[90m# features//class/AdminCreateClass.feature:21&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser already in landing page&amp;#27;[0m                                &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInLandingPage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser input &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin@alta.com&quot;&amp;#27;[0m&amp;#27;[32m as email and &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin&quot;&amp;#27;[0m&amp;#27;[32m as password&amp;#27;[0m &amp;#27;[90m# step_definitions.LogInOutSteps.userInputAsEmailAndAsPassword(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mUser already in dashboard page&amp;#27;[0m                               &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInDashboardPage()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click button of class page&amp;#27;[0m                       &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickButtonOfClassPage()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click add delete button&amp;#27;[0m                          &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickAddDeleteButton()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click add new button&amp;#27;[0m                             &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickAddNewButton()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin input &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;^&amp;*()_+&quot;&amp;#27;[0m                                  &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminInput(java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mSuper Admin choose mentor &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Naruto Uzumaki&quot;&amp;#27;[0m                    &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor &quot;Naruto Uzumaki&quot;(classpath:features//class/AdminCreateClass.feature:13)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mSuper Admin choose mulai &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;03/01/2023&quot;&amp;#27;[0m                         &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseMulai(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mSuper Admin choose akhir &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;03/31/2023&quot;&amp;#27;[0m                         &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseAkhir(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mSuper Admin click save button&amp;#27;[0m                                &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickSaveButton()&amp;#27;[0m
+</system-out>
+    <system-err>Starting Microsoft Edge WebDriver 111.0.1661.43 (b6e9cbf64f5a49997370859b5c1c28a3a25b3477) on port 19571
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 17, 2023 4:39:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+</system-err>
+  </testcase>
+  <testcase classname="Create Class" name="Admin create new class #3" time="10.636">
+    <error message="Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor &quot;Naruto Uzumaki&quot;(classpath:features//class/AdminCreateClass.feature:13)
+</error>
+    <system-out>
+@Automate @AdminCreate
+Scenario Outline: Admin create new class                            &amp;#27;[90m# features//class/AdminCreateClass.feature:22&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser already in landing page&amp;#27;[0m                                &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInLandingPage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser input &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin@alta.com&quot;&amp;#27;[0m&amp;#27;[32m as email and &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin&quot;&amp;#27;[0m&amp;#27;[32m as password&amp;#27;[0m &amp;#27;[90m# step_definitions.LogInOutSteps.userInputAsEmailAndAsPassword(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mUser already in dashboard page&amp;#27;[0m                               &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInDashboardPage()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click button of class page&amp;#27;[0m                       &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickButtonOfClassPage()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click add delete button&amp;#27;[0m                          &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickAddDeleteButton()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin click add new button&amp;#27;[0m                             &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickAddNewButton()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mSuper Admin input &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;&quot;&amp;#27;[0m                                         &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminInput(java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mSuper Admin choose mentor &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Naruto Uzumaki&quot;&amp;#27;[0m                    &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor &quot;Naruto Uzumaki&quot;(classpath:features//class/AdminCreateClass.feature:13)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mSuper Admin choose mulai &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;03/01/2023&quot;&amp;#27;[0m                         &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseMulai(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mSuper Admin choose akhir &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;03/31/2023&quot;&amp;#27;[0m                         &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminChooseAkhir(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mSuper Admin click save button&amp;#27;[0m                                &amp;#27;[90m# step_definitions.classs.AdminClassStepDef.superAdminClickSaveButton()&amp;#27;[0m
+</system-out>
+    <system-err>Starting Microsoft Edge WebDriver 111.0.1661.43 (b6e9cbf64f5a49997370859b5c1c28a3a25b3477) on port 26195
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 17, 2023 4:39:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+</system-err>
+  </testcase>
 </testsuite>

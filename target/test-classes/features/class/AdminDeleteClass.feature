@@ -1,5 +1,5 @@
-@Automate @AdminDelete @Admin
-Feature: Delete Class
+@Automate @AdminDelete
+Feature: Delete
 
 
   Scenario Outline: Admin delete class

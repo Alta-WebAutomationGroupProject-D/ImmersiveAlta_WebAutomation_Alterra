@@ -1,4 +1,37 @@
 -------------------------------------------------------------------------------
 Test set: step_definitions.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.719 sec
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 36.355 sec <<< FAILURE!
+Admin create new class #1(Create Class)  Time elapsed: 13.707 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor "Naruto Uzumaki"(classpath:features//class/AdminCreateClass.feature:13)
+
+Admin create new class #2(Create Class)  Time elapsed: 10.991 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor "Naruto Uzumaki"(classpath:features//class/AdminCreateClass.feature:13)
+
+Admin create new class #3(Create Class)  Time elapsed: 10.636 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Naruto Uzumaki
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at locator.classs.ClassPage.setMentorName(ClassPage.java:57)
+	at step_definitions.classs.AdminClassStepDef.superAdminChooseMentor(AdminClassStepDef.java:41)
+	at ✽.Super Admin choose mentor "Naruto Uzumaki"(classpath:features//class/AdminCreateClass.feature:13)
+

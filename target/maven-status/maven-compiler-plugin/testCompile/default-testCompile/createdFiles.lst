@@ -1,3 +1,4 @@
 step_definitions\Hooks.class
-step_definitions\LogInOutSteps.class
+step_definitions\classs\AdminClassStepDef.class
 step_definitions\RunCukesTest.class
+step_definitions\LogInOutSteps.class
