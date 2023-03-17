@@ -1,4 +1,4 @@
-@AdminCreateUserPos @Automate
+@CreateUserPositiveAsAdmin @Automate
 Feature: [Positive Case] Create User as Admin
 
   Scenario: Admin Create User with Valid Parameter
@@ -9,7 +9,7 @@ Feature: [Positive Case] Create User as Admin
     And Admin already in user page
     Then Admin click button add new user
     And Show Pop up Form New User
-    Then Admin input "User Baru" as Nama and "contoh123@gmail.com" as Email and "asdasd123" as Password
+    Then Admin input "User Baru" as Nama and "sulitsekalibuatemaildoang@hotmail.com" as Email and "apaajabisa123" as Password
     And Choose team "Placement"
     And Choose status "Not-Active"
     Then Click button Save

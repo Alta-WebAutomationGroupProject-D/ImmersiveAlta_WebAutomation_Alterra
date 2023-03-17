@@ -17,12 +17,6 @@ public class AdminStepDef {
         this.webDriver = Hooks.webDriver;
     }
 
-    @Then("User already in dashboard page")
-    public void userAlreadyInDashboardPage() {
-        LogInOutPage logInOutPage = new LogInOutPage(webDriver);
-        Assert.assertTrue(logInOutPage.vrfyDashboard());
-    }
-
     // Positive Case
     @Then("Admin clicked button user page")
     public void adminClickedButtonUserPage() {
@@ -79,7 +73,7 @@ public class AdminStepDef {
         Thread.sleep(3000);
     }
 
-    @And("Admin input new {string} as Nama and {string} as Email")
+    @And("Admin input {string} as new Nama and {string} as new Email")
     public void adminEditProfileUser(String name, String newemail) throws InterruptedException {
         UserPage userPage = new UserPage(webDriver);
         UserPage.setNama(name);
@@ -131,7 +125,7 @@ public class AdminStepDef {
         Thread.sleep(3000);
     }
 
-    @And("Admin input new {string} as Nama and {} as Blank Email")
+    @And("Admin input {string} as new Nama and {} as Blank Email")
     public void adminEditProfileUserWithBlank(String name, String newemail) throws InterruptedException {
         UserPage userPage = new UserPage(webDriver);
         UserPage.setNama(name);

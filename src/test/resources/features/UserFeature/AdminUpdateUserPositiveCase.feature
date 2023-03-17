@@ -1,4 +1,4 @@
-@AdminUpdateProfileUserPos @Automate
+@AdminUpdateProfileUserPositive @Automate
 Feature: [Positive Case] Update User as Admin
 
   Scenario: Admin Update User with Valid Parameter
@@ -9,7 +9,7 @@ Feature: [Positive Case] Update User as Admin
     And Admin already in user page
     Then Admin click button edit profile
     And Show Pop up Form Edit User
-    Then Admin input new "Uchiha Itachi" as Nama and "saringan@alta.com" as Email
+    Then Admin input "Uchiha Itachi" as new Nama and "saringan@alta.com" as new Email
     And Choose team "People Skill"
     And Choose status "Not-Active"
     Then Click button Save

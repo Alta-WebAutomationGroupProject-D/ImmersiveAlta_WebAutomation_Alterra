@@ -28,7 +28,7 @@ public class UserStepDef {
         Thread.sleep(3000);
     }
 
-    @Then("User search and see list user name {string}")
+    @Then("User search and see list user by name {string}")
     public void userSearchAndSeeList(String keyword) throws InterruptedException{
         UserPage userPage = new UserPage(webDriver);
         UserPage.searchingUser(keyword);

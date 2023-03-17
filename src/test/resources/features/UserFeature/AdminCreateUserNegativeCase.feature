@@ -1,5 +1,5 @@
-@AdminCreateUserNeg @Automate
-Feature: [Positive Case] Create User as Admin
+@CreateUserNegativeAsAdmin @Automate
+Feature: [Negative Case] Create User as Admin
 
   Scenario Outline: Admin Create User with Invalid Parameter
     Given User already in landing page
