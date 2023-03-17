@@ -1,3 +1,9 @@
 step_definitions\Hooks.class
-step_definitions\LogInOutSteps.class
+step_definitions\FilterSteps.class
 step_definitions\RunCukesTest.class
+step_definitions\mentee\SearchSteps.class
+step_definitions\mentee\LogSteps.class
+step_definitions\mentee\CreateSteps.class
+step_definitions\LogInOutSteps.class
+step_definitions\mentee\ReadSteps.class
+step_definitions\mentee\UpdateSteps.class
