@@ -7,4 +7,4 @@ Feature: Delete Class
     When User input "admin@alta.com" as email and "admin" as password
     Then User already in dashboard page
     Then Super Admin click button of class page
-    Then Super Admin click add delete button
+    Then Super Admin click delete button

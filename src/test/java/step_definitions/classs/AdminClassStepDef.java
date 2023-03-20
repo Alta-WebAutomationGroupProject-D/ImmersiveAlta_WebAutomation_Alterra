@@ -65,7 +65,7 @@ public class AdminClassStepDef {
         classPage.setEditButton();
     }
 
-    @Then("Super Admin click add delete button")
+    @Then("Super Admin click delete button")
     public void superAdminClickAddDeleteButton() {
         ClassPage classPage = new ClassPage(webDriver);
         classPage.setDeleteButton();

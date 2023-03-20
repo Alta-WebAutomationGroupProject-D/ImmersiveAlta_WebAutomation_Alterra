@@ -1,4 +1,4 @@
-@Automate @AdminUpdate
+@Automate @AdminUpdate @Admin
 Feature: Update Class
 
 
