@@ -1,5 +1,6 @@
 package step_definitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -42,5 +43,12 @@ public class LogInOutSteps {
     public void errorMessageShouldAppear(String error) {
         LogInOutPage logInOutPage = new LogInOutPage(webDriver);
         Assert.assertEquals(error, logInOutPage.errorMessage());
+    }
+
+//    Logout
+    @And("User click logout button")
+    public void userClickLogoutButton() {
+        LogInOutPage logInOutPage = new LogInOutPage(webDriver);
+        logInOutPage.buttonLogout();
     }
 }

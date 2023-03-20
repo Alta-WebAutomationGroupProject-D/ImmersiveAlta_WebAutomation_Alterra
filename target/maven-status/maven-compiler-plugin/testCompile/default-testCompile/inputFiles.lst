@@ -1,6 +1,7 @@
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\CreateSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\UpdateSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\LogSteps.java
+D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\DeleteSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\LogInOutSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\SearchSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\RunCukesTest.java

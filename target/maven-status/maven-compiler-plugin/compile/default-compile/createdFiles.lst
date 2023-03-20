@@ -2,6 +2,7 @@ locator\mentee\FilterPage.class
 locator\mentee\CreatePage.class
 locator\LogInOutPage.class
 locator\mentee\UpdatePage.class
+locator\mentee\DeletePage.class
 locator\mentee\LogPage.class
 locator\mentee\SearchPage.class
 locator\mentee\ReadPage.class
