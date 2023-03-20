@@ -27,6 +27,9 @@ public class LogInOutPage {
     @FindBy(xpath = "//button[@class='w-24 h-10 bg-blue text-white rounded-lg']")
     private WebElement btnLogin;
 
+    @FindBy(xpath = "//li[@class='absolute bottom-3 text-sm flex  gap-2 items-center cursor-pointer']")
+    private WebElement btnLogout;
+
     @FindBy(xpath = "//h1[@class='text-center']")
     private WebElement dashboard;
 
@@ -54,5 +57,9 @@ public class LogInOutPage {
     public boolean vrfyDashboard(){
         dashboard.isDisplayed();
         return true;
+    }
+
+    public void buttonLogout(){
+        btnLogout.click();
     }
 }
