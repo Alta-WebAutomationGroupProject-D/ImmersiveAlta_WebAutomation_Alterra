@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\CreateSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\UpdateSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\LogSteps.java
@@ -8,3 +9,10 @@ D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\RunCuke
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\FilterSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\Hooks.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\ReadSteps.java
+=======
+E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\classs\AdminClassStepDef.java
+E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\Hooks.java
+E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\classs\UserClassStepDef.java
+E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\LogInOutSteps.java
+E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\RunCukesTest.java
+>>>>>>> 3bf5de3deda3c7e33966b3f0e81a307d28aa7473
