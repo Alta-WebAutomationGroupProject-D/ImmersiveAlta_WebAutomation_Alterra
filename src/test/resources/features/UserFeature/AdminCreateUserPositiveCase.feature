@@ -1,4 +1,4 @@
-@CreateUserPositiveAsAdmin @Automate
+@CreateUserPositiveAsAdmin @Automate @UserFeature
 Feature: [Positive Case] Create User as Admin
 
   Scenario: Admin Create User with Valid Parameter

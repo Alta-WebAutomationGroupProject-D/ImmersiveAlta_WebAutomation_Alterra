@@ -1,4 +1,4 @@
-@AdminUpdateProfileUserPositive @Automate
+@AdminUpdateProfileUserPositive @Automate @UserFeature
 Feature: [Positive Case] Update User as Admin
 
   Scenario: Admin Update User with Valid Parameter

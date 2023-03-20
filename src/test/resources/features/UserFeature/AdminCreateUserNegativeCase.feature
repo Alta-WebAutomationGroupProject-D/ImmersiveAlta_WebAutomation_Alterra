@@ -1,4 +1,4 @@
-@CreateUserNegativeAsAdmin @Automate
+@CreateUserNegativeAsAdmin @Automate @UserFeature
 Feature: [Negative Case] Create User as Admin
 
   Scenario Outline: Admin Create User with Invalid Parameter
