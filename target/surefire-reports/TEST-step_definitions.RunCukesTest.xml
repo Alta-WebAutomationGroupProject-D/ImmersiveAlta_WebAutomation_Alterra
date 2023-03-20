@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <testsuite tests="1" failures="0" name="step_definitions.RunCukesTest" time="13.869" errors="0" skipped="0">
 =======
 <testsuite tests="3" failures="0" name="step_definitions.RunCukesTest" time="75.67" errors="0" skipped="0">
@@ -12,19 +13,38 @@
     <property name="maven.multiModuleProjectDirectory" value="E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
+=======
+<testsuite tests="1" failures="0" name="step_definitions.RunCukesTest" time="16.47" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.10+5-MTS"/>
+    <property name="sun.boot.library.path" value="C:\Users\User\.jdks\azul-15.0.10\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+>>>>>>> user
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<<<<<<< HEAD
     <property name="user.dir" value="E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+=======
+    <property name="user.dir" value="C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.10+5-MTS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+>>>>>>> user
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -33,7 +53,11 @@
     <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
+<<<<<<< HEAD
     <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Maven\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;;."/>
+=======
+    <property name="java.library.path" value="C:\Users\User\.jdks\azul-15.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Maven\apache-maven-3.9.0\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;."/>
+>>>>>>> user
     <property name="jansi.passthrough" value="true"/>
     <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3/conf"/>
     <property name="jdk.debug" value="release"/>
@@ -41,29 +65,39 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
+<<<<<<< HEAD
     <property name="user.home" value="C:\Users\LENOVO"/>
     <property name="user.timezone" value="Asia/Singapore"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="15"/>
     <property name="user.name" value="LENOVO"/>
+=======
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="User"/>
+>>>>>>> user
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.1 test"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 test"/>
+    <property name="java.home" value="C:\Users\User\.jdks\azul-15.0.10"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="15.0.2"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.version" value="15.0.10"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
     <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2021-01-19"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Zulu15.46+17-CA"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <testcase classname="Login and logout" name="Log out" time="13.869"/>
 =======
@@ -71,4 +105,108 @@
   <testcase classname="Create Class #2" name="User create new class #2" time="24.643"/>
   <testcase classname="Create Class #2" name="User create new class #3" time="23.715"/>
 >>>>>>> 3bf5de3deda3c7e33966b3f0e81a307d28aa7473
+=======
+  <testcase classname="[Positive Case] Update User as Admin" name="Admin Update User with Valid Parameter" time="16.47">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;tbody &gt; tr:nth-of-type(5) .text-green-600&quot;}
+  (Session info: MicrosoftEdge=111.0.1661.41)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aed4a293f7fdb2c65e281eeaee3be708, findElement {using=css selector, value=tbody &gt; tr:nth-of-type(5) .text-green-600}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.41, ms:edgeOptions: {debuggerAddress: localhost:52798}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52798/devtoo..., se:cdpVersion: 111.0.1661.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aed4a293f7fdb2c65e281eeaee3be708" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;tbody &gt; tr:nth-of-type(5) .text-green-600&quot;}
+  (Session info: MicrosoftEdge=111.0.1661.41)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aed4a293f7fdb2c65e281eeaee3be708, findElement {using=css selector, value=tbody &gt; tr:nth-of-type(5) .text-green-600}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.41, ms:edgeOptions: {debuggerAddress: localhost:52798}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52798/devtoo..., se:cdpVersion: 111.0.1661.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aed4a293f7fdb2c65e281eeaee3be708
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at locator.user.UserPage.setButtonEditProfileUser(UserPage.java:106)
+	at step_definitions.UserStepDef.AdminStepDef.adminClickButtonEdit(AdminStepDef.java:55)
+	at ✽.Admin click button edit profile(classpath:features/UserFeature/AdminUpdateUserPositiveCase.feature:10)
+</error>
+    <system-out>
+@AdminUpdateProfileUserPositive @Automate
+Scenario: Admin Update User with Valid Parameter                                    &amp;#27;[90m# features/UserFeature/AdminUpdateUserPositiveCase.feature:4&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser already in landing page&amp;#27;[0m                                                &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInLandingPage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser input &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin@alta.com&quot;&amp;#27;[0m&amp;#27;[32m as email and &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;admin&quot;&amp;#27;[0m&amp;#27;[32m as password&amp;#27;[0m                 &amp;#27;[90m# step_definitions.LogInOutSteps.userInputAsEmailAndAsPassword(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mUser already in dashboard page&amp;#27;[0m                                               &amp;#27;[90m# step_definitions.LogInOutSteps.userAlreadyInDashboardPage()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mAdmin clicked button user page&amp;#27;[0m                                               &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.adminClickedButtonUserPage()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mAdmin already in user page&amp;#27;[0m                                                    &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.adminAlreadyInUserPage()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mAdmin click button edit profile&amp;#27;[0m                                              &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.adminClickButtonEdit()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;tbody &gt; tr:nth-of-type(5) .text-green-600&quot;}
+  (Session info: MicrosoftEdge=111.0.1661.41)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aed4a293f7fdb2c65e281eeaee3be708, findElement {using=css selector, value=tbody &gt; tr:nth-of-type(5) .text-green-600}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.41, ms:edgeOptions: {debuggerAddress: localhost:52798}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52798/devtoo..., se:cdpVersion: 111.0.1661.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aed4a293f7fdb2c65e281eeaee3be708
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at locator.user.UserPage.setButtonEditProfileUser(UserPage.java:106)
+	at step_definitions.UserStepDef.AdminStepDef.adminClickButtonEdit(AdminStepDef.java:55)
+	at ✽.Admin click button edit profile(classpath:features/UserFeature/AdminUpdateUserPositiveCase.feature:10)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mShow Pop up Form Edit User&amp;#27;[0m                                                    &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.showPopUpFormEditUser()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mAdmin input &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Uchiha Itachi&quot;&amp;#27;[0m&amp;#27;[36m as new Nama and &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;saringan@alta.com&quot;&amp;#27;[0m&amp;#27;[36m as new Email&amp;#27;[0m &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.adminEditProfileUser(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mChoose team &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;People Skill&quot;&amp;#27;[0m                                                    &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.setTeam(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mChoose status &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Not-Active&quot;&amp;#27;[0m                                                    &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.setStatus(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mClick button Save&amp;#27;[0m                                                            &amp;#27;[90m# step_definitions.UserStepDef.AdminStepDef.clickBtnSaveAddUser()&amp;#27;[0m
+</system-out>
+    <system-err>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 1689
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 20, 2023 11:03:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+</system-err>
+  </testcase>
+>>>>>>> user
 </testsuite>

@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 locator\mentee\FilterPage.class
 locator\mentee\CreatePage.class
 =======
 locator\classs\ClassPage.class
 >>>>>>> 3bf5de3deda3c7e33966b3f0e81a307d28aa7473
+=======
+locator\user\UserPage.class
+>>>>>>> user
 locator\LogInOutPage.class
 locator\mentee\UpdatePage.class
 locator\mentee\DeletePage.class

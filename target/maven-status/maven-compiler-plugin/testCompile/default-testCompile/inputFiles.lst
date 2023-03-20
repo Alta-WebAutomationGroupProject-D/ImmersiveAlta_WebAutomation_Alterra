@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\CreateSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\UpdateSteps.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\test\java\step_definitions\mentee\LogSteps.java
@@ -16,3 +17,10 @@ E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Al
 E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\LogInOutSteps.java
 E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\RunCukesTest.java
 >>>>>>> 3bf5de3deda3c7e33966b3f0e81a307d28aa7473
+=======
+C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\RunCukesTest.java
+C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\Hooks.java
+C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\UserStepDef\AdminStepDef.java
+C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\UserStepDef\UserStepDef.java
+C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra\src\test\java\step_definitions\LogInOutSteps.java
+>>>>>>> user

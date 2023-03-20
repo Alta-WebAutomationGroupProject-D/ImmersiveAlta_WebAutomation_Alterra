@@ -6,8 +6,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+<<<<<<< HEAD
         tags = "@UserCreate",
         features = {"classpath:features/"},
+=======
+        tags = "@Automate",
+        features = {"classpath:features"},
+>>>>>>> user
         glue = { "classpath:step_definitions"},
         plugin= {"pretty","html:target/site/cucumber-pretty","json:target/cucumber.json"}
 )

@@ -1,5 +1,6 @@
 step_definitions\Hooks.class
 <<<<<<< HEAD
+<<<<<<< HEAD
 step_definitions\FilterSteps.class
 step_definitions\RunCukesTest.class
 step_definitions\mentee\SearchSteps.class
@@ -15,3 +16,9 @@ step_definitions\classs\UserClassStepDef.class
 step_definitions\RunCukesTest.class
 step_definitions\LogInOutSteps.class
 >>>>>>> 3bf5de3deda3c7e33966b3f0e81a307d28aa7473
+=======
+step_definitions\RunCukesTest.class
+step_definitions\UserStepDef\UserStepDef.class
+step_definitions\UserStepDef\AdminStepDef.class
+step_definitions\LogInOutSteps.class
+>>>>>>> user
