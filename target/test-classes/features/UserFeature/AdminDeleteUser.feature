@@ -1,4 +1,4 @@
-@AdminDeleteUserPos @Automate
+@AdminDeleteUserPos @Automate @UserFeature
 Feature: [Positive Case] Delete User as Admin
 
   Scenario: Admin Delete User

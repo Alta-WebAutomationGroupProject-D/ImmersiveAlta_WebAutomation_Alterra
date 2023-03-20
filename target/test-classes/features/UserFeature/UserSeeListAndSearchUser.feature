@@ -1,4 +1,4 @@
-@UserSearchUserPos @Automate
+@UserSearchUserPos @Automate @UserFeature
 Feature: [Positive Case] Search User as User
 
   Scenario: User Create New User

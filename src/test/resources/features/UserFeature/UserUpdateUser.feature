@@ -1,4 +1,4 @@
-@UserUpdateProfileUser @Automate
+@UserUpdateProfileUser @Automate @UserFeature
 Feature: [Positive Case] Update User as User
 
   Scenario: User Update User with Invalid Parameter

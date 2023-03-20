@@ -1,4 +1,4 @@
-@AdminUpdateProfileUserNegative @Automate
+@AdminUpdateProfileUserNegative @Automate @UserFeature
 Feature: [Negative Case] Update User as Admin
 
   Scenario Outline: Admin Update User with Invalid Parameter

@@ -1,4 +1,4 @@
-@UserCreateNewUser @Automate
+@UserCreateNewUser @Automate @UserFeature
 Feature: [Positive Case] Create User as User
 
   Scenario: User Create New User
