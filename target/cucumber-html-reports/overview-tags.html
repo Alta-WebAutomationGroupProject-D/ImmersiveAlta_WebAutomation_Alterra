@@ -48,32 +48,32 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@AdminDeleteUserPos",  "@AdminUpdateProfileUserNegative",  "@AdminUpdateProfileUserPositive",  "@Automate",  "@CreateUserNegativeAsAdmin",  "@CreateUserPositiveAsAdmin",  "@UserCreateNewUser",  "@UserDeleteUserPos",  "@UserFeature",  "@UserSearchUserPos",  "@UserUpdateProfileUser", ] ,
+        labels:  [ "@AdminDeleteUserPos",  "@Automate",  "@UserFeature", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 83.33,  45.45,  45.45,  76.97,  92.73,  100.00,  100.00,  100.00,  76.97,  100.00,  100.00, ] 
+                data:  [ 83.33,  83.33,  83.33, ] 
             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 16.67,  9.09,  9.09,  4.61,  1.82,  0.00,  0.00,  0.00,  4.61,  0.00,  0.00, ] 
+                data:  [ 16.67,  16.67,  16.67, ] 
             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00,  45.45,  45.45,  18.42,  5.45,  0.00,  0.00,  0.00,  18.42,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             }
         ]
     };
@@ -135,7 +135,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Project Name</td>
         <td>1</td>
-      <td>20 Mar 2023, 14:08</td>
+      <td>21 Mar 2023, 10:58</td>
     </tr>
   </tbody>
 </table>
@@ -210,211 +210,75 @@ $(document).ready(function() {
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="3536574100">3.536</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-tag_167111088.html">@AdminUpdateProfileUserNegative</a></td>
-
-        <td      class="passed"    >20</td>
-        <td      class="failed"    >4</td>
-        <td     class="skipped"   >20</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">44</td>
-
-        <td >0</td>
-        <td  class="failed"    >4</td>
-        <td class="total">4</td>
-
-        <td class="duration" data-value="14415771800">14.415</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-tag_4288771956.html">@AdminUpdateProfileUserPositive</a></td>
-
-        <td      class="passed"    >5</td>
-        <td      class="failed"    >1</td>
-        <td     class="skipped"   >5</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">11</td>
-
-        <td >0</td>
-        <td  class="failed"    >1</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="3515540000">3.515</td>
+        <td class="duration" data-value="3824181900">3.824</td>
         <td class="failed">Failed</td>
       </tr>
       <tr>
         <td class="tagname"><a href="report-tag_3938621843.html">@Automate</a></td>
 
-        <td      class="passed"    >117</td>
-        <td      class="failed"    >7</td>
-        <td     class="skipped"   >28</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">152</td>
-
-        <td  class="passed"    >9</td>
-        <td  class="failed"    >7</td>
-        <td class="total">16</td>
-
-        <td class="duration" data-value="149714604200">2:29.714</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-tag_2367610368.html">@CreateUserNegativeAsAdmin</a></td>
-
-        <td      class="passed"    >51</td>
+        <td      class="passed"    >5</td>
         <td      class="failed"    >1</td>
-        <td     class="skipped"   >3</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">55</td>
+        <td >0</td>
+        <td class="total">6</td>
 
-        <td  class="passed"    >4</td>
+        <td >0</td>
         <td  class="failed"    >1</td>
-        <td class="total">5</td>
+        <td class="total">1</td>
 
-        <td class="duration" data-value="74549295000">1:14.549</td>
+        <td class="duration" data-value="3824181900">3.824</td>
         <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-tag_2133920700.html">@CreateUserPositiveAsAdmin</a></td>
-
-        <td      class="passed"    >11</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">11</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="16965225500">16.965</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-tag_3980208771.html">@UserCreateNewUser</a></td>
-
-        <td      class="passed"    >6</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">6</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="8853686400">8.853</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-tag_3831492594.html">@UserDeleteUserPos</a></td>
-
-        <td      class="passed"    >6</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">6</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="8547871500">8.547</td>
-        <td class="passed">Passed</td>
       </tr>
       <tr>
         <td class="tagname"><a href="report-tag_2205637706.html">@UserFeature</a></td>
 
-        <td      class="passed"    >117</td>
-        <td      class="failed"    >7</td>
-        <td     class="skipped"   >28</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">152</td>
-
-        <td  class="passed"    >9</td>
-        <td  class="failed"    >7</td>
-        <td class="total">16</td>
-
-        <td class="duration" data-value="149714604200">2:29.714</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-tag_1057786197.html">@UserSearchUserPos</a></td>
-
-        <td      class="passed"    >7</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">7</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="10785511700">10.785</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-tag_3163041695.html">@UserUpdateProfileUser</a></td>
-
-        <td      class="passed"    >6</td>
-        <td >0</td>
+        <td      class="passed"    >5</td>
+        <td      class="failed"    >1</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td class="total">6</td>
 
-        <td  class="passed"    >1</td>
         <td >0</td>
+        <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="8545128200">8.545</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="3824181900">3.824</td>
+        <td class="failed">Failed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>351</td>
-      <td>21</td>
-      <td>84</td>
-      <td>0</td>
-      <td>0</td>
-      <td>456</td>
-
       <td>15</td>
-      <td>33</td>
-      <td>48</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>18</td>
 
-      <td class="duration">7:29.143</td>
-      <td>11</td>
+      <td>0</td>
+      <td>3</td>
+      <td>3</td>
+
+      <td class="duration">11.472</td>
+      <td>3</td>
     </tr>
     <tr>
       <td></td>
-      <td>76.97%</td>
-      <td>4.61%</td>
-      <td>18.42%</td>
+      <td>83.33%</td>
+      <td>16.67%</td>
       <td>0.00%</td>
       <td>0.00%</td>
+      <td>0.00%</td>
       <td></td>
-      <td>31.25%</td>
-      <td>68.75%</td>
+      <td>0.00%</td>
+      <td>100.00%</td>
       <td></td>
       <td></td>
-      <td>55.56%</td>
+      <td>0.00%</td>
     </tr>
   </tfoot>
 </table>

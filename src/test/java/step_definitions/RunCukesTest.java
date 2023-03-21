@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@Automate",
+        tags = "@AdminDeleteUserPos",
         features = {"classpath:features"},
         glue = { "classpath:step_definitions"},
         plugin= {"pretty","html:target/site/cucumber-pretty","json:target/cucumber.json"}

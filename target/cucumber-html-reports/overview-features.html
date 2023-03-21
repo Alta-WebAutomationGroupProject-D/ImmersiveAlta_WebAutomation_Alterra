@@ -50,9 +50,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                117,
-                7,
-                28,
+                5,
+                1,
+                0,
                 0,
                 0
             ],
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 152) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,8 +106,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                9,
-                7
+                0,
+                1
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 16) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,8 +153,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   5,
-                   4
+                   0,
+                   1
                ],
                backgroundColor: [
                 "#00B000",
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 9) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -230,7 +230,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Project Name</td>
         <td>1</td>
-      <td>20 Mar 2023, 14:08</td>
+      <td>21 Mar 2023, 10:58</td>
     </tr>
   </tbody>
 </table>
@@ -325,41 +325,7 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_3583433097.html">[Negative Case] Create User as Admin</a></td>
-
-        <td      class="passed"    >51</td>
-        <td      class="failed"    >1</td>
-        <td     class="skipped"   >3</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">55</td>
-
-        <td  class="passed"    >4</td>
-        <td  class="failed"    >1</td>
-        <td class="total">5</td>
-
-        <td class="duration" data-value="74549295000">1:14.549</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_1_1772609869.html">[Positive Case] Create User as Admin</a></td>
-
-        <td      class="passed"    >11</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">11</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="16965225500">16.965</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_2_3821394707.html">[Positive Case] Delete User as Admin</a></td>
+        <td class="tagname"><a href="report-feature_3821394707.html">[Positive Case] Delete User as Admin</a></td>
 
         <td      class="passed"    >5</td>
         <td      class="failed"    >1</td>
@@ -372,143 +338,41 @@ $(document).ready(function() {
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="3536574100">3.536</td>
+        <td class="duration" data-value="3824181900">3.824</td>
         <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_3_2655656534.html">[Negative Case] Update User as Admin</a></td>
-
-        <td      class="passed"    >20</td>
-        <td      class="failed"    >4</td>
-        <td     class="skipped"   >20</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">44</td>
-
-        <td >0</td>
-        <td  class="failed"    >4</td>
-        <td class="total">4</td>
-
-        <td class="duration" data-value="14415771800">14.415</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_4_844833306.html">[Positive Case] Update User as Admin</a></td>
-
-        <td      class="passed"    >5</td>
-        <td      class="failed"    >1</td>
-        <td     class="skipped"   >5</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">11</td>
-
-        <td >0</td>
-        <td  class="failed"    >1</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="3515540000">3.515</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_5_249403634.html">[Positive Case] Create User as User</a></td>
-
-        <td      class="passed"    >6</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">6</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="8853686400">8.853</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_6_1295642401.html">[Positive Case] Delete User as User</a></td>
-
-        <td      class="passed"    >6</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">6</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="8547871500">8.547</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_7_3362388420.html">[Positive Case] Search User as User</a></td>
-
-        <td      class="passed"    >7</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">7</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="10785511700">10.785</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_8_1580852543.html">[Positive Case] Update User as User</a></td>
-
-        <td      class="passed"    >6</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">6</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="8545128200">8.545</td>
-        <td class="passed">Passed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>117</td>
-      <td>7</td>
-      <td>28</td>
+      <td>5</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>152</td>
+      <td>0</td>
+      <td>6</td>
 
-      <td>9</td>
-      <td>7</td>
-      <td>16</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
 
-      <td class="duration">2:29.714</td>
-      <td>9</td>
+      <td class="duration">3.824</td>
+      <td>1</td>
     </tr>
     <tr>
       <td></td>
-      <td>76.97%</td>
-      <td>4.61%</td>
-      <td>18.42%</td>
+      <td>83.33%</td>
+      <td>16.67%</td>
       <td>0.00%</td>
       <td>0.00%</td>
+      <td>0.00%</td>
       <td></td>
-      <td>56.25%</td>
-      <td>43.75%</td>
+      <td>0.00%</td>
+      <td>100.00%</td>
       <td></td>
       <td></td>
-      <td>55.56%</td>
+      <td>0.00%</td>
     </tr>
   </tfoot>
 </table>
