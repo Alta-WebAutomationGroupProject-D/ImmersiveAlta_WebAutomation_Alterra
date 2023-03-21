@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: step_definitions.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.544 sec <<< FAILURE!
-Admin Delete User([Positive Case] Delete User as Admin)  Time elapsed: 13.919 sec  <<< ERROR!
-org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.097 sec <<< FAILURE!
+Admin Delete User([Positive Case] Delete User as Admin)  Time elapsed: 12.471 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[6]//span[1]"}
   (Session info: MicrosoftEdge=111.0.1661.44)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [33fb5ceefd869739fec5ec08022e87d3, findElement {using=css selector, value=//tr:nth-of-type(6) [d='M864 256H736v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zm-200 0H360v-72h304v72z']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:49597}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49597/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33fb5ceefd869739fec5ec08022e87d3
+Command: [654180e8bb8d001af300e9a23119ea09, findElement {using=xpath, value=//tr[6]//span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:53016}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53016/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 654180e8bb8d001af300e9a23119ea09
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -31,7 +31,7 @@ Session ID: 33fb5ceefd869739fec5ec08022e87d3
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at com.sun.proxy.$Proxy24.click(Unknown Source)
-	at locator.user.UserPage.adminClickDeleteButton(UserPage.java:153)
+	at locator.user.UserPage.adminClickDeleteButton(UserPage.java:156)
 	at step_definitions.UserStepDef.AdminStepDef.clickBtnDelete(AdminStepDef.java:113)
 	at ✽.Click button delete user(classpath:features/UserFeature/AdminDeleteUser.feature:10)
 
