@@ -1,4 +1,4 @@
-@Read
+@Read @Automate
   Feature: Read data mentee
     This test case is everything about read mentee
 

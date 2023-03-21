@@ -15,7 +15,7 @@ Feature: Update Class
     Then Super Admin click save button
 
     Examples:
-      | nama kelas   | mentor         | tanggal mulai | tanggal berakhir |
-      | QE Batch 100 | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
-      | ^&*()_+      | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
-      |              | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
+      | nama kelas   | mentor       | tanggal mulai | tanggal berakhir |
+      | QE Batch 100 | Fajar Sadboy | 03/01/2023    | 03/31/2023       |
+      | ^&*()_+      | Fajar Sadboy | 03/01/2023    | 03/31/2023       |
+      |              | Fajar Sadboy | 03/01/2023    | 03/31/2023       |

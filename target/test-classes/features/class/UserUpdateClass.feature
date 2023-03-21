@@ -16,6 +16,6 @@ Feature: Update Class
 
     Examples:
       | nama kelas   | mentor         | tanggal mulai | tanggal berakhir |
-      | QE Batch 103 | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
-      | &&&&&&       | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
-      |              | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
+      | QE Batch 103 | Fajar Sadboy | 03/01/2023    | 03/31/2023       |
+      | &&&&&&       | Fajar Sadboy | 03/01/2023    | 03/31/2023       |
+      |              | Fajar Sadboy | 03/01/2023    | 03/31/2023       |

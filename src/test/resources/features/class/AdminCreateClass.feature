@@ -15,8 +15,8 @@ Feature: Create Class
     Then Super Admin click save button
 
     Examples:
-      | nama kelas | mentor         | tanggal mulai | tanggal berakhir |
-      | QE Batch 9 | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
-      | ^&*()_+    | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
-      |            | Naruto Uzumaki | 03/01/2023    | 03/31/2023       |
+      | nama kelas | mentor              | tanggal mulai | tanggal berakhir |
+      | QE Batch 9 | Naruto Uzumakiriski | 03/01/2023    | 03/31/2023       |
+      | ^&*()_+    | Naruto Uzumakiriski | 03/01/2023    | 03/31/2023       |
+      |            | Naruto Uzumakiriski | 03/01/2023    | 03/31/2023       |
 

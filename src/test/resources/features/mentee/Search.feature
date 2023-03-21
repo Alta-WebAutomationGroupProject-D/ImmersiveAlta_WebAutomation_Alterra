@@ -1,4 +1,4 @@
-@Search
+@Search @Automate
   Feature: Search user
     This test case is everything about search feature
 

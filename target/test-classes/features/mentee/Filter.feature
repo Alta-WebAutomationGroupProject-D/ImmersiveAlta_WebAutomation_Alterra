@@ -1,4 +1,4 @@
-@Filter
+@Filter @Automate
   Feature: Use filter feature in mentee page
     This test case is everything about feature filter
 
@@ -11,6 +11,6 @@
     Then User choose "<allCategory>" as category
     Examples:
       | allClass | allStatus | allCategory     |
-      | sanjaya  | Unit 3    | Informatics     |
+      | p        | Unit 3    | Informatics     |
       |          | Placement | Non-Informatics |
       |          | Interview |                 |

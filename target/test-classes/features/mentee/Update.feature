@@ -1,4 +1,4 @@
-@Update
+@Update @Automate
   Feature: Update mentee
     This test case is everything about update mentee
 

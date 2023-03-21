@@ -1,4 +1,4 @@
-@Log
+@Log @Automate
   Feature: Add log in mentee
     This test case is evrything about log
 

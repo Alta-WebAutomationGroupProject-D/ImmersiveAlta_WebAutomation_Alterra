@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\mentee\CreatePage.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\LogInOutPage.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\mentee\ReadPage.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\mentee\LogPage.java
+D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\classs\ClassPage.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\mentee\UpdatePage.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\mentee\SearchPage.java
+D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\user\UserPage.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\mentee\DeletePage.java
 D:\Alterra\Automation\Maven\ImmersiveAlta\src\main\java\locator\mentee\FilterPage.java
-=======
-E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\main\java\locator\classs\ClassPage.java
-E:\ALTERRA\Grup Project 2\Task Web Automation Fix\ImmersiveAlta_WebAutomation_Alterra\src\main\java\locator\LogInOutPage.java
->>>>>>> 3bf5de3deda3c7e33966b3f0e81a307d28aa7473
-=======
-C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra\src\main\java\locator\LogInOutPage.java
-C:\Users\User\OneDrive\Desktop\Group-Project-2\ImmersiveAlta_WebAutomation_Alterra\src\main\java\locator\user\UserPage.java
->>>>>>> user

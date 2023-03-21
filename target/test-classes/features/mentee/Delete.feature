@@ -1,4 +1,4 @@
-@Delete
+@Delete @Automate
   Feature: Delete user
     This test case is everything about delete
 

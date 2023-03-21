@@ -14,7 +14,7 @@ public class ReadPage {
         ReadPage.driver = driver;
     }
 
-    @FindBy(xpath = "//td[.='AldanM']")
+    @FindBy(xpath = "//td[.='topik']")
     private WebElement name;
 
     public boolean nameVisual(){
